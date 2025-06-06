@@ -7,7 +7,7 @@ Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo
 - [ ] Se ha encontrado las librerias necesarias para la vision artificial
 - [ ] Las fotos que debe analizar el modelo estan insertadas a fuego en el programa
 - [ ] Si no se reconoce ningún cromo en la foto, el modelo lo avisa
-- [ ] La visión es capaz de recnocer la carta
+- [ ] La visión es capaz de recnocer la carta y devolver el `title` de la carta
 
 
 -----------
