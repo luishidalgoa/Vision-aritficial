@@ -3,6 +3,10 @@ El objetivo principal de la investigación es con averiguar si con javascript (r
 
 Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo pueda identificar el cromo al que pertenece una foto hecha con el movil
 
+## Requisitos:
+- NodeJS
+- TensorFlow
+
 ## Tareas 
 - [ ] Se ha encontrado las librerias necesarias para la vision artificial
 - [ ] Las fotos que debe analizar el modelo estan insertadas a fuego en el programa
