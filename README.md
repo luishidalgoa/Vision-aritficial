@@ -3,6 +3,10 @@ El objetivo principal de la investigación es con averiguar si con javascript (r
 
 Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo pueda identificar el cromo al que pertenece una foto hecha con el movil
 
+## Tareas 
+- [ ] Se ha encontrado las librerias necesarias para la vision artificial
+- [ ] Si no se reconoce ningún cromo en la foto, el modelo lo avisa
+- [ ] La visión es capaz de recnocer la carta
 
 
 -----------
@@ -187,6 +191,4 @@ Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo
         ]
 ````
 -----------
-- [ ] Se ha encontrado las librerias necesarias para la vision artificial
-- [ ] Si no se reconoce ningún cromo en la foto, el modelo lo avisa
-- [ ] La visión es capaz de recnocer la carta
+
