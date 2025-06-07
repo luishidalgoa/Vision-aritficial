@@ -1,4 +1,4 @@
-<img width="314" alt="image" src="https://github.com/user-attachments/assets/6ad825ec-ea2a-4776-8d2a-ba05bc208369" />## Objetivo
+## Objetivo
 El objetivo principal de la investigación es con averiguar si con javascript (recomendablemente TypeScript), es posible implementar visión artificial.
 
 Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo pueda identificar el cromo al que pertenece una foto hecha con el movil
