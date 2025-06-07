@@ -22,178 +22,250 @@ Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo
 ### Objeto de cartas
 ````json
 "cards": [
-            {
-                "index": 1,
-                "title": "Lágrimas",
-                "description": "Hermandad y Cofradía Nazarenos del tisimo Cristo de las grimas y María santisima de las Penas",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F1.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F1.png&version_id=null"
-                }
-            },
-            {
-                "index": 2,
-                "title": "Nuestra señora de la asunción",
-                "description": "Esta parroquia forma parte de la vicaría de la ciudad y del arciprestazgo del Noroeste. Oficialmente. la Parroquia se estableció como tal en el año 1975, según consta en los libros sacramentales EI Templo fue inaugurado en el año 1971",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F2.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F2.png&version_id=null"
-                }
-            },
-            {
-                "index": 3,
-                "title": "Nazarenos",
-                "description": "Tunica blanco roto. cubrerrostro y fajín vino tinto.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F3.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F3.png&version_id=null"
-                }
-            },
-            {
-                "index": 4,
-                "title": "Maria santisima de las penas",
-                "description": "Juan Jiménez González 2014 Pablo Porras Castro. 2014",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F4.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F4.png&version_id=null"
-                }
-            },
-            {
-                "index": 5,
-                "title": "Santisimo cristo de las Lágrimas",
-                "description": "Miguel Arjona Navarro.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F5.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F5.png&version_id=null"
-                }
-            },
-            {
-                "index": 6,
-                "title": "Contraluz del señor",
-                "description": "Contraluz del Cristo de las Lágrimas en su salida procesional por las calles d Córdoba",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F6.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F6.png&version_id=null"
-                }
-            },
-            {
-                "index": 7,
-                "title": "Paso de virgen",
-                "description": "Primera salida procesional sobre el paso del Corpus de la Sagrada Cena de Córdoba",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F7.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F7.png&version_id=null"
-                }
-            },
-            {
-                "index": 8,
-                "title": "Paso de cristo",
-                "description": "Costaleros: 54 Capataz Juan de Dios Música: Sagrada Cena de Córdoba",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F8.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F8.png&version_id=null"
-                }
-            },
-            {
-                "index": 9,
-                "title": "Libro de Reglas",
-                "description": "Trabajo realizado a mano, donado por el primer mayordomo de la Hermandad en recuerdo de la primera estación de penitencia como Hermandad nombrada de pleno derecho.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F9.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F9.png&version_id=null"
-                }
-            },
-            {
-                "index": 10,
-                "title": "Presentación",
-                "description": "Dominica Hermandad del Santísimo Sacramento y Cofradía de Nazarenos de Nuestro Padre Jesús de los Afligidos en su Sagrada Presentación al Pueblo, Nuestra Señora Reina del Cielo y Misericordia, y San Vicente Ferrer.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F10.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F10.png&version_id=null"
-                }
-            },
-            {
-                "index": 11,
-                "title": "Parroquia de San Vicente Ferrer",
-                "description": "Parroquia fundada en el barrio popular de Cañero en 1954. El actual templo se bendijo por el entonces Obispo Fray Albino González el 24 de marzo de 1956. En 2006 tuvieron lugar una serie de actos para conmemorar el 50 Aniversario de la Parroquia.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F11.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F11.png&version_id=null"
-                }
-            },
-            {
-                "index": 12,
-                "title": "Nazarenos",
-                "description": "Túnica de sarga blanca, antifaz en el mismo color para capirote de 90 cm, en cuyo centro figurará la cruz “flordelisada” dominica de color blanco y negro sobre un campo del mismo color, cinturón de esparto negro y mangas de camisa con triple botonadura entelada blanca.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F12.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F12.png&version_id=null"
-                }
-            },
-            {
-                "index": 13,
-                "title": "Nuestra Señora de la Asunción",
-                "description": "Cruz Dominica estrenada en 2019, fue realizada por Francisco Sánchez Rodríguez, actualmente es la mayor que procesiona en la Semana Santa Cordobesa.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F13.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F13.png&version_id=null"
-                }
-            },
-            {
-                "index": 14,
-                "title": "Manuel Martín Nieto",
-                "description": "La talla de Ntro. Padre Jesús de los Afligidos está hecha en madera de cedro de 1,85 m. Destaca la policromía, la excelente finalización de la imagen que parece real, la unión sagrada que posee, y la majestuosidad que presenta.",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F14.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F14.png&version_id=null"
-                }
-            },
-            {
-                "index": 15,
-                "title": "Estandarte Sacramental",
-                "description": "Bordado en oro fino sobre terciopelo rojo de Lyon del siglo XIX (1846).",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F15.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F15.png&version_id=null"
-                }
-            },
-            {
-                "index": 16,
-                "title": "Poncio Pilato",
-                "description": "Javier López del Espino, 2022",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F16.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F16.png&version_id=null"
-                }
-            },
-            {
-                "index": 17,
-                "title": "Paso del misterio",
-                "description": "Descripción artística del paso: paso en carpintería\nNúmero de costaleros: 40 Musica: Redención de Córdoba\nFoto: Jose Gabriel Zurera",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F17.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F17.png&version_id=null"
-                }
-            },
-            {
-                "index": 18,
-                "title": "Cruz Parroquial",
-                "description": "Obra Anónima",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F18.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F18.png&version_id=null"
-                }
-            },
-            {
-                "index": 19,
-                "title": "Entrada Triunfal",
-                "description": "Hermandad y Cofradía de Nuestro Padre Jesús de los Reyes en su Entrada Triunfal en Jerusalén, María Santísima de la Victoria y Nuestra Señora de la Palma",
-                "images": {
-                    "480": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2F480%2F19.png&version_id=null",
-                    "standard": "https://minio.luishidalgoa.ddns-ip.net/api/v1/buckets/albums/objects/download?preview=true&prefix=Albumes%2FHolyCards%2FC%C3%B3rdoba%2F2025%2Fstandard%2F19.png&version_id=null"
-                }
-            }
-        ]
+  {
+    "index": 1,
+    "name": "Escudo",
+    "description": "Hermandad y Cofradía Nazarenos del tisimo Cristo de las grimas y María santisima de las Penas",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/1.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/1.png"
+    }
+  },
+  {
+    "index": 2,
+    "name": "Cruz de Guía",
+    "description": "Foto: Javier Barcones",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/2.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/2.png"
+    }
+  },
+  {
+    "index": 3,
+    "name": "Foto Histórica",
+    "description": "Primera salida de las Penas (2016).",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/3.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/3.png"
+    }
+  },
+  {
+    "index": 4,
+    "name": "Virgen",
+    "description": "La Virgen de las Penas es tallada por José Jiménez Mesa en 195",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/4.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/4.png"
+    }
+  },
+  {
+    "index": 5,
+    "name": "Cristo",
+    "description": "La imagen de Jesús en la Cruz el Santísimo Cristo delas Lágrirnas, es la obra de Miguel Arjona (1984).",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/5.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/5.png"
+    }
+  },
+  {
+    "index": 6,
+    "name": "Bandera",
+    "description": "Foto: Javier Cárdernas",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/6.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/6.png"
+    }
+  },
+  {
+    "index": 7,
+    "name": "Corona",
+    "description": "Foto: Valentín Moyano",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/7.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/7.png"
+    }
+  },
+  {
+    "index": 8,
+    "name": "Paso de cristo",
+    "description": "Santísimo Cristo de las Lágrimas en su salida procesional por las calles de Córdoba.",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/8.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/8.png"
+    }
+  },
+  {
+    "index": 9,
+    "name": "Vara",
+    "description": "Foto: Valentín Moyano",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/9.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/9.png"
+    }
+  },
+  {
+    "index": 10,
+    "name": "Escudo",
+    "description": "Domínica Hermandad del Santísimo Sacramento y Cofradía de Nazarenos de Nuestro Padre Jesús de los Afligidos en su Sagrada Presentación al pueblo, Nuestra Señora Reina del Cielo y Misericordia y San Vicente Ferrer.",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/10.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/10.png"
+    }
+  },
+  {
+    "index": 11,
+    "name": "Cruz de Guía",
+    "description": "Cruz Dominica estrenada en 2019. fue realizada por Francisco Sánchez Rodríguez actualmente es la mayor que procesiona en la Semana Santa Cordobesa",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/11.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/11.png"
+    }
+  },
+  {
+    "index": 12,
+    "name": "Foto Histórica",
+    "description": "Primera salida procesiona de Ntro. R.J. de los Afligidos en su Sagrada Presentación al Pueblo (2016).",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/12.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/12.png"
+    }
+  },
+  {
+    "index": 13,
+    "name": "Trono de Pilato",
+    "description": "Jamuga talladaen madera decorada con la tecnica tradicwnal dorado al agua cón panes de oro fino de 233/4 Kilaies realizada y donada su hechura por el artista Cordobés Joaquin Said Ray Martínez Estrenada en 2024",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/13.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/13.png"
+    }
+  },
+  {
+    "index": 14,
+    "name": "Cristo",
+    "description": "La talla de Ntro. Padre Jesús de los Afligidos está hecha en madera de cedro de 1,85 m. Destaca la policromía, la excelente finalización de la imagen que parece real, la unión sagrada que posee, y la majestuosidad que presenta.",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/14.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/14.png"
+    }
+  },
+  {
+    "index": 15,
+    "name": "Bandera",
+    "description": "estrenada en 2019",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/15.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/15.png"
+    }
+  },
+  {
+    "index": 16,
+    "name": "Guión",
+    "description": "Confeccionado en 2022 por el artista cordobés. Enrique Ruiz Flores, con orfebrería del taller de José Carlos Angulo.",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/16.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/16.png"
+    }
+  },
+  {
+    "index": 17,
+    "name": "Paso del Misterio",
+    "description": "Descripción artística del paso: paso en carpintería Número de costaleros: 40 Musica: Redención de Córdoba",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/17.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/17.png"
+    }
+  },
+  {
+    "index": 18,
+    "name": "Incensario",
+    "description": "Estrenado en 2022, junto a la imagen de Poncio Pilatos, el soldado romano y el trono del gobernador rpmana",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/18.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/18.png"
+    }
+  },
+  {
+    "index": 19,
+    "name": "Escudo",
+    "description": "Hermandad y Cofradía de Nuestro Padre Jesús de los Reyes en su Entrada Triunfal en Jerusalén, María Santísima de la Victoria y Nuestra Señora de la Palma",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/19.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/19.png"
+    }
+  },
+  {
+    "index": 20,
+    "name": "Cruz de Guía",
+    "description": "Foto: Juan Luis Seco",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/20.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/20.png"
+    }
+  },
+  {
+    "index": 21,
+    "name": "Foto Histórica",
+    "description": "primera salida procesional. Domingo e Ramos (1978).",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/21.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/21.png"
+    }
+  },
+  {
+    "index": 22,
+    "name": "Cristo",
+    "description": "La imagen Titular Cristifera representa el misterio de la Entrada Triunfal en Jerusalén Pero su advocación es la de Nuestro Padre Jesus de los Reyes conmemorando la fiesta de Reglas.",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/22.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/22.png"
+    }
+  },
+  {
+    "index": 23,
+    "name": "Virgen",
+    "description": "Autor. Francisco Romero Zafra (1991).",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/23.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/23.png"
+    }
+  },
+  {
+    "index": 24,
+    "name": "Estandarte",
+    "description": "Estandarte de la Hermandad, de terciopelo rojo con bordados en aplicación de Ángel Pareja (1991).",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/24.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/24.png"
+    }
+  },
+  {
+    "index": 25,
+    "name": "Paso del Misterio",
+    "description": "Estrenado en fase de talla en 2024. Obra de Fernando Alcalá Morales.",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/25.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/25.png"
+    }
+  },
+  {
+    "index": 26,
+    "name": "Paso de Virgen",
+    "description": "Foto: Juan Luis Seco",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/26.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/26.png"
+    }
+  },
+  {
+    "index": 27,
+    "name": "V. de la Victoria",
+    "description": "Foto: Eva Maria Pavon",
+    "images": {
+      "480": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/480/27.png",
+      "standard": "https://s3.minio.luishidalgoa.ddns-ip.net/albums/Albumes/HolyCards/Córdoba/2025/standard/27.png"
+    }
+  }
+]
 ````
 -----------
 
