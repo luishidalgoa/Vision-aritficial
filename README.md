@@ -1,4 +1,4 @@
-## Objetivo
+<img width="314" alt="image" src="https://github.com/user-attachments/assets/6ad825ec-ea2a-4776-8d2a-ba05bc208369" />## Objetivo
 El objetivo principal de la investigación es con averiguar si con javascript (recomendablemente TypeScript), es posible implementar visión artificial.
 
 Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo pueda identificar el cromo al que pertenece una foto hecha con el movil
@@ -196,4 +196,43 @@ Dado unas imagenes de ejemplo sobre una tematica en concreto (Cromos), el modelo
         ]
 ````
 -----------
+
+## Modo desarrollo
+El proyecto ha sido conterizado en Docker, listo para conectarte a través de un IDE via SSH y desarrollar en el.
+A continuación se detallaran los pasos básicos para la puesta en marcha
+
+### Pre requisitos
+- Docker
+- IDE (Intellij o Visual Studio)
+
+### 1. Crear contenedor de la imagen
+````sh
+docker run -it --name dev-container-vision_artificial -p 22:22 luishidalgoa/dev-container-vision_artificial:latest
+````
+### 2. Conectarnos via SSH
+#### Visual Studio Code
+- En Visual Studio, buscar la opción `Conectarse a`
+<img width="880" alt="image" src="https://github.com/user-attachments/assets/a70d74d6-717f-4175-90fd-5580de7a5949" />
+
+- Escoger opción SSH
+- Agregar un nuevo HOST
+````
+Host vision-artificial
+  HostName 127.0.0.1
+  Port 22
+  User root
+````
+- introducir credencias `1234`
+#### Intellij IDEA
+- Seleccionar la opción `Remote development`
+<img width="314" alt="image" src="https://github.com/user-attachments/assets/1c4f0dc8-8a94-4007-99df-8202c4341cd3" />
+
+- Creamos una nueva conexión SSH
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/599814a1-5987-465e-8ded-7c2c23d35c9b" />
+<img width="448" alt="image" src="https://github.com/user-attachments/assets/7d1528c3-6aa0-42a9-a325-160f622cf011" />
+
+> Introducimos la contraseña `1234`
+---
+
+Despues de conectarnos, buscaremos el directorio donde esta el repositorio del proyecto:  `/Workspace`
 
